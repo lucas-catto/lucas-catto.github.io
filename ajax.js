@@ -6,7 +6,7 @@ $(document).ready(function() {
             url:    "./AJAX/home.html", // URL do novo conteúdo
             method: "GET",
             success: function(data) {
-                $("#main").html(data); // Substituir o conteúdo existente pelo novo conteúdo
+                $("#section2").html(data); // Substituir o conteúdo existente pelo novo conteúdo
             },
             error: function() {
                 alert("Erro ao carregar o novo conteúdo.");
@@ -21,7 +21,7 @@ $(document).ready(function() {
             url:    "./AJAX/about.html", // URL do novo conteúdo
             method: "GET",
             success: function(data) {
-                $("#main").html(data); // Substituir o conteúdo existente pelo novo conteúdo
+                $("#section2").html(data); // Substituir o conteúdo existente pelo novo conteúdo
             },
             error: function() {
                 alert("Erro ao carregar o novo conteúdo.");
@@ -36,7 +36,7 @@ $(document).ready(function() {
             url:    "./AJAX/education.html", // URL do novo conteúdo
             method: "GET",
             success: function(data) {
-                $("#main").html(data); // Substituir o conteúdo existente pelo novo conteúdo
+                $("#section2").html(data); // Substituir o conteúdo existente pelo novo conteúdo
             },
             error: function() {
                 alert("Erro ao carregar o novo conteúdo.");
@@ -51,7 +51,7 @@ $(document).ready(function() {
             url:    "./AJAX/skills.html", // URL do novo conteúdo
             method: "GET",
             success: function(data) {
-                $("#main").html(data); // Substituir o conteúdo existente pelo novo conteúdo
+                $("#section2").html(data); // Substituir o conteúdo existente pelo novo conteúdo
             },
             error: function() {
                 alert("Erro ao carregar o novo conteúdo.");
