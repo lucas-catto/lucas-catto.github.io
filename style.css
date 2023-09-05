@@ -46,12 +46,13 @@ button:hover {
 
 main {
     width:            100%;
-    height:           100vh;
+    height:           100%;
 }
 
 #index {
     width:            100%;
     max-width:        1200px;
+    height:           100%;
     min-height:       100%;
     background-color: transparent;
 
@@ -105,10 +106,12 @@ footer a:hover {
     }
     .article-1-index { margin: 0 0 10px 0; }
     .article-2-index { margin: 10px 0 0 0; }
+    img              { max-width: 65%;     }
 }
 
 @media screen and (max-width:771px) {
     header    { height: 325px;          }
     header ul { flex-direction: column; }
     button    { margin: 0 0 10px 0;     }
+    img       { max-width: 45%;         }
 }
