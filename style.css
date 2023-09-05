@@ -1,5 +1,5 @@
 
-html, body {
+main, header {
     background-color: #212529;
 }
 
@@ -46,7 +46,7 @@ button:hover {
 
 main {
     width:            100%;
-    height:           calc(100vh - 130px);
+    height:           calc(100vh - 190px);
 }
 
 #index {
@@ -78,11 +78,23 @@ img {
 
 footer {
     width:            100%;
-    height:           100px;
+    height:           60px;
     background-color: #0220a8;
     display:          flex;
     align-items:      center;
     justify-content:  center;
+    margin:      auto 0 0 0;
+    
+}
+footer p {
+    font-size: 17px;
+}
+footer a {
+    color: white;
+    border-bottom: 2px solid red;
+}
+footer a:hover {
+    padding: 0 0 4px 0;
 }
 
 @media screen and (max-width:1244px) {
