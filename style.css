@@ -1,17 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
-
-* {
-    margin:  0;
-    padding: 0;
-    border:  0;
-    box-sizing:  border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
 html, body {
-    width:  100%;
-    height: 100%;
     background-color: #212529;
 }
 
@@ -29,53 +17,63 @@ h2 {
 
 
 header {
-    width:   100%;
-    height:  130px;
-    display: flex;
+    width:            100%;
+    height:           130px;
+    display:          flex;
     background-color: #66797E;
 
 }
 
 ul {
-    width:           100%;
-    display:         flex;
-    list-style:      none;
-    align-items:     center;
-    justify-content: space-evenly;
+    width:            100%;
+    display:          flex;
+    list-style:       none;
+    align-items:      center;
+    justify-content:  space-evenly;
 }
 
 button {
-    width:         115px;
-    height:        55px;
-    border-radius: 8px;
-    font-size:     15.5px;
+    width:            115px;
+    height:           55px;
+    border-radius:    8px;
+    font-size:        15.5px;
 }
 
 button:hover {
-    height:    65px;
-    font-size: 16.5px;
+    height:           65px;
+    font-size:        16.5px;
 }
 
 #section-1 {
-    margin:    0 auto;
-    width:     100%;
-    max-width: 1200px;
-    height:    calc(100vh - 130px);
-    border:    2px solid white;
+    margin:           0 auto;
+    width:            100%;
+    max-width:        1200px;
+    height:           calc(100vh - 130px);
+    border:           2px solid white;
     
-    display:         flex;
-    justify-content: space-around;
-    align-items:     center;
+    display:          flex;
+    align-items:      center;
+    padding:          0 20px;
 }
 
 .article-1 {
-    margin:    0 20px;
-    width:     100%;
+    width:            100%;
+    margin:           0 20px 0 0;
 }
 
 img {
-    width:          100%;
-    max-width:      100%;
-    height:         auto;
-    vertical-align: middle;
+    width:            100%;
+    max-width:        100%;
+    height:           auto;
+    vertical-align:   middle;
+    border-radius:    100%;
+}
+
+footer {
+    width:            100%;
+    height:           100px;
+    background-color: #0220a8;
+    display:          flex;
+    align-items:      center;
+    justify-content:  center;
 }
