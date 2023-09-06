@@ -25,6 +25,10 @@ header {
 
 }
 
+li {
+    background: #212529;
+}
+
 .nav-bar {
     display:         flex;
     justify-content: space-between;
@@ -42,6 +46,7 @@ header {
 .nav-list {
     display:         flex;
     align-items:     center;
+    background-color: #212529;
 }
 
 .nav-list ul {
@@ -51,16 +56,17 @@ header {
 }
 
 .nav-item {
-    margin: 0 15px;
+    margin: 3px 15px;
+
 }
 
 .nav-item button {
-    width:         85px;
-    height:        32px;
-    border-radius: 7px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    width:            85px;
+    height:           32px;
+    border-radius:    7px;
+    background-color: #212529;
+    color:            white;
+    border:           2px solid white;
 }
 
 .nav-button button {
@@ -80,6 +86,7 @@ header {
 
 .mobile-menu {
     display: none;
+    background-color: #212529;
 }
 
 
@@ -89,6 +96,7 @@ header {
     }
     .nav-item {
         display: none;
+        /* margin: 3px 0 0 0; */
     }
     .mobile-menu-icon {
         display: block;
