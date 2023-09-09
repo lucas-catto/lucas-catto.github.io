@@ -56,12 +56,13 @@ li {
 .nav-bar {
     display:         flex;
     justify-content: space-between;
-    padding:         2.5rem 6rem;
+    align-items: start;
+    padding:         1.5rem 6rem;
 }
 
 .logo {
     display:     flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .logo h1 {
     color: white;
@@ -118,15 +119,10 @@ li {
 
 
 @media screen and (max-width: 1130px) {
-    .nav-bar {
-        padding: 2.3rem 4rem; }
-    .nav-item {
-        display: none;
-        /* margin: 3px 0 0 0; */
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
+    .nav-bar          { padding: 2.3rem 4rem; }
+    .nav-item         { display: none;        }
+    .mobile-menu-icon { display: block;       }
+
     .mobile-menu-icon button {
         background-color: transparent;
         border:           none;
@@ -138,6 +134,11 @@ li {
         text-align:       center;
         padding-bottom:   1rem;
     }
+    .mobile-menu .nav-item {
+        display:          block;
+        padding:          1.2rem 0 0 0;
+    }
+
     .mobile-menu {
         border:           2px solid white;
         padding:          10px 0;
@@ -145,13 +146,8 @@ li {
         background-color: var(--defaultBlue);
         z-index:          2;
     }
-    .mobile-menu .nav-item {
-        display:          block;
-        /* padding: 1.2rem 0 0 0; */
-    }
-    .open {
-        display: block;
-    }
+    .mobile-menu .nav-item { display: block; }
+    .open                  { display: block; }
 }
 
 @media screen and (max-width: 404px) {
