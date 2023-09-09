@@ -204,7 +204,6 @@ img {
 
 @media screen and (max-width: 1130px) {
     .container {
-        margin:         40px;
         flex-direction: column;
         text-align:     center;
         padding:        0 8px;
