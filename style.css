@@ -80,7 +80,7 @@ img {
 
 footer {
     border-top:       2px solid white;
-    height:           100px;
+    height:           65px;
     background-color: var(--defaultBlue);
     display:          flex;
     justify-content:  center;
