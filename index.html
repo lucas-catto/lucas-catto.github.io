@@ -25,17 +25,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu perfil</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     </head>
     <body>
     <header>
         <a href=""><p>Lucas Catto</p></a>
-        <ul class="desktop">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Formação</li></a>
-            <a href="#"><li>Habilidades</li></a>
-        </ul>
+        <div class="menu">
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="menu-itens"> <!-- desktop -->
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Sobre</li></a>
+                <a href="#"><li>Formação</li></a>
+                <a href="#"><li>Habilidades</li></a>
+            </ul>
+        </div>
     </header>
 
         <main>
@@ -54,6 +60,7 @@
         <footer>
             <p>Copyright © 2023 por <a href="https://github.com/lucas-catto/">Lucas Catto</a> | Todos os Direitos Reservados.</p>
         </footer>
-        
+
+        <script src="script.js"></script>        
     </body>
 </html>
