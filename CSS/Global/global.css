@@ -94,7 +94,14 @@ header #s2 button:hover {
         justify-content: center;
         gap:             15px;
     }
-    
+}
+
+@media screen and (max-width: 340px) {
+    #s2 {
+        justify-content: center;
+        align-items:     center;
+        flex-direction:  column;
+    }
 }
 
 footer {

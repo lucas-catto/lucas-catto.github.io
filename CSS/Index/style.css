@@ -63,3 +63,7 @@ img {
 
     #language { font-size: 13pt; }
 }
+
+@media screen and (max-width: 340px) {
+    main img { min-width: 250px; }
+}
