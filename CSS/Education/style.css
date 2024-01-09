@@ -1,6 +1,4 @@
 
-
-
 main {
     padding:          30px 10px;
     flex-direction:   column;
@@ -9,7 +7,7 @@ main {
     gap:              10px;
 }
 
-main section {
+main details {
     width:            100%;
     max-width:        40%;
     min-width:        280px;
@@ -21,6 +19,23 @@ main section {
     gap:              8px;
 }
 
-@media screen and (max-width: 1268px) {
-    main section { text-align: center; }
+main details img {
+    margin:           0 10px 0 0;
+    width:            100%;
+    max-width:        3%;
+    height:           auto;
+    vertical-align:   middle;
+}
+
+@media screen and (max-width: 1024px) {
+    main details img { max-width: 6%; }
+}
+
+main details p { margin: 0 0 6px 0; }
+
+summary {
+    display:          flex;
+    align-items:      center;
+    padding:          8px 0;
+    font-size:        14pt;
 }
