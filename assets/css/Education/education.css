@@ -1,0 +1,41 @@
+
+main {
+    padding:          16px 0;
+    background-color: var(--defaultBlue);
+    flex-direction:   column;
+    align-items:      center;
+    gap:              8px;
+}
+
+main details {
+    width:            100vw;
+    max-width:        60vw;
+    height:           auto;
+    border:           2px solid var(--defaultWhite);
+    border-radius:    8px;
+    color:            var(--defaultWhite);
+    user-select:      none;
+}
+
+main details summary {
+    padding:          8px;
+    font-size:        18pt;
+}
+
+hr {
+    width:            100%;
+    max-width:        100%;
+    height:           2px;
+    background-color: var(--defaultWhite);
+}
+
+main details p {
+    padding:          4px 8px;
+    font-size:        16pt;
+}
+
+@media (max-width: 800px) {
+    
+    main details
+    { max-width: 90vw; }
+}

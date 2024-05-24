@@ -1,0 +1,66 @@
+
+main {
+    padding:          16px 0;
+    background-color: var(--defaultBlue);
+    flex-direction:   column;
+    align-items:      center;
+    gap:              8px;
+}
+
+main details {
+    width:            100vw;
+    max-width:        60vw;
+    height:           auto;
+    border:           2px solid var(--defaultWhite);
+    border-radius:    8px;
+    color:            var(--defaultWhite);
+    user-select:      none;
+}
+
+main details summary {
+    padding:          8px;
+    font-size:        18pt;
+}
+
+hr {
+    width:            100%;
+    max-width:        100%;
+    height:           2px;
+    background-color: var(--defaultWhite);
+}
+
+main details section {
+    padding:          4px 2px;
+    width:            100%;
+    max-width:        100%;
+    height:           auto;
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+}
+
+main details section div {
+    display:          flex;
+    align-items:      center;
+}
+
+main details p {
+    padding:          4px 8px;
+    font-size:        16pt;
+    text-align:       center;
+}
+
+main details a {
+    color:            var(--defaultWhite);
+    border-bottom:    1px solid transparent;
+}
+
+main details a:hover {
+    border-bottom: 1px solid var(--defaultWhite);
+}
+
+@media (max-width: 800px) {
+    
+    main details
+    { max-width: 90vw; }
+}
