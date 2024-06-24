@@ -5,32 +5,165 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lucas Catto | Home</title>
         <link rel="stylesheet" href="./assets/css/Global/global.css">
+        
         <link rel="stylesheet" href="./assets/css/Home/home.css">
+        <link rel="stylesheet" href="./assets/css/Projects/projects.css">
+        <link rel="stylesheet" href="./assets/css/Education/education.css">
+
         <script src="./assets/js/Menu/menu.js" defer></script>
     </head>
     <body>
         <header>
             <h1>Lucas Catto</h1>
 
-            <svg onclick="menu()" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-grid-1x2-fill" viewBox="0 0 16 16">
-                <path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1z"/>
-            </svg>
-
             <ul id="items">
-                <a href="/Projects/"><li>Cursos / Projetos</li></a>
-                <a href="/Education/"><li>Educação</li></a>
+                <a href="#projects"><li>Cursos / Projetos</li></a>
+                <a href="#education"><li>Educação</li></a>
             </ul>
         </header>
 
         <main>
-            <section id="s1">
-                <p>Hackeando o Mundo com linhas de código.</p>
-                <p>Criando bits em parceria com meu teclado.</p>
+            <section id="home">
+                <div class="home-1">
+                    <p>Hackeando o Mundo com linhas de código.</p>
+                    <p>Criando bits em parceria com meu teclado.</p>
+                </div>
+    
+                <div class="home-2">
+                    <img src="./assets/img/me.jpeg" alt="">
+                    <p>Github: <a href="https://github.com/lucas-catto" target="_blank">lucas-catto</a></p>
+                </div>
             </section>
 
-            <section id="s2">
-                <img src="./assets/img/me.jpeg" alt="">
-                <p>Github: <a href="https://github.com/lucas-catto" target="_blank">lucas-catto</a></p>
+            <section id="projects">
+                
+                <h2>Projetos</h2>
+
+                <details>
+                    <summary>DevWeb</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Projeto Desenvolvido com PHP e BootStrap no Curso de PHP Jedai da DankiCode. Mas para utilizar o Github Pages, troquei o PHP por HTML.</p>
+                        <div>
+                            <a href="https://lucas-catto.github.io/DevWeb/" target="_blank">Projeto</a>
+                            <p>|</p>
+                            <a href="https://github.com/lucas-catto/DevWeb" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+    
+                <details>
+                    <summary>Nikola Tesla</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Projeto Desenvolvido com HTML/CSS/JS que apresenta imagens geradas com Inteligência Atificial com base na leitura de um arquivo JSON.</p>
+                        <div>
+                            <a href="https://lucas-catto.github.io/nikola-tesla/" target="_blank">Projeto</a>
+                            <p>|</p>
+                            <a href="https://github.com/lucas-catto/nikola-tesla" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+    
+                <details>
+                    <summary>PDO PHP Data Objects</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Curso sobre o PDO do PHP.</p>
+                        <div>
+                            <a href="https://github.com/lucas-catto/PDO-PHP-Data-Objects" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+    
+                <details>
+                    <summary>Curso em Video PHP POO</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Curso sobre PHP Orientado a Objetos no Curso em Vídeo.</p>
+                        <div>
+                            <a href="https://github.com/lucas-catto/Curso-em-Video-PHP-POO" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+    
+                <details>
+                    <summary>Pokedex</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Projeto Desenvolvido durante as aulas de Programação Web II com C# para leitura de arquivos JSON e exibição do conteúdo na página Home e Details, com filtros Javascript.</p>
+                        <div>
+                            <a href="https://github.com/lucas-catto/Pokedex.git" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+                    
+                <details>
+                    <summary>Chess-CS</summary>
+                    <hr>
+                    <div class="section">
+                        <p>Projeto Desenvolvido durante as aulas de Programação Web II com C# para leitura de arquivos JSON e exibição do conteúdo na página Home e Details, com filtros Javascript.</p>
+                        <div>
+                            <a href="https://github.com/lucas-catto/Chess-CS" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </details>
+            </section>
+
+            <section id="education">
+
+                <h2>Educação</h2>
+
+                <details>
+                    <summary>Curso Técnico em Desenvolvimento de Sistemas</summary>
+                    <hr>
+                    <p>ETEC João Comendador Rays (Brasil)</p>
+                    <p>(2022 - 2024)</p>
+                </details>
+    
+                <details>
+                    <summary>Ensino Médio com Técnico em Informática para Internet</summary>
+                    <hr>
+                    <p>ETEC João Comendador Rays (Brasil)</p>
+                    <p>(2022 - 2024)</p>
+                </details>
+    
+                <details>
+                    <summary>PHP PDO</summary>
+                    <hr>
+                    <p>Udemy (Online)</p>
+                </details>
+    
+                <details>
+                    <summary>PHP POO</summary>
+                    <hr>
+                    <p>Curso em Vídeo (Online)</p>
+                </details>
+    
+                <details>
+                    <summary>PHP Básico</summary>
+                    <hr>
+                    <p>Curso em Vídeo (Online)</p>
+                </details>
+    
+                <details>
+                    <summary>Linux</summary>
+                    <hr>
+                    <p>Curso em Vídeo (Online)</p>
+                </details>
+    
+                <details>
+                    <summary>Python 3</summary>
+                    <hr>
+                    <p>Mundo 1, 2 e 3</p>
+                    <p>Curso em Vídeo (Online)</p>
+                </details>
+                
+                <details>
+                    <summary>HTML & CSS</summary>
+                    <hr>
+                    <p>Cataline (Online)</p>
+                </details>
             </section>
         </main>
 

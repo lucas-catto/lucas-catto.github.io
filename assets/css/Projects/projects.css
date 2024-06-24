@@ -1,13 +1,12 @@
 
-main {
-    padding:          16px 0;
-    background-color: var(--defaultBlue);
+main #projects {
     flex-direction:   column;
     align-items:      center;
-    gap:              8px;
+    justify-content:  flex-start;
+    gap:              12px;
 }
 
-main details {
+main #projects details {
     width:            100vw;
     max-width:        60vw;
     height:           auto;
@@ -17,7 +16,7 @@ main details {
     user-select:      none;
 }
 
-main details summary {
+main #projects details summary {
     padding:          8px;
     font-size:        18pt;
 }
@@ -29,7 +28,7 @@ hr {
     background-color: var(--defaultWhite);
 }
 
-main details section {
+main #projects details .section {
     padding:          4px 2px;
     width:            100%;
     max-width:        100%;
@@ -39,28 +38,27 @@ main details section {
     align-items:      center;
 }
 
-main details section div {
+main #projects details .section div {
     display:          flex;
     align-items:      center;
 }
 
-main details p {
+main #projects details p {
     padding:          4px 8px;
     font-size:        16pt;
     text-align:       center;
 }
 
-main details a {
+main #projects details a {
     color:            var(--defaultWhite);
     border-bottom:    1px solid transparent;
 }
 
-main details a:hover {
+main #projects details a:hover {
     border-bottom: 1px solid var(--defaultWhite);
 }
 
 @media (max-width: 800px) {
-    
-    main details
-    { max-width: 90vw; }
+    main #projects details
+    { max-width: 90%; }
 }

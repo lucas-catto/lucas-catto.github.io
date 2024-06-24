@@ -1,23 +1,22 @@
 
-main {
-    padding:          16px 0;
-    background-color: var(--defaultBlue);
+main #education {
     flex-direction:   column;
     align-items:      center;
-    gap:              8px;
+    justify-content:  flex-start;
+    gap:              12px;
 }
 
-main details {
-    width:            100vw;
-    max-width:        60vw;
-    height:           auto;
+main #education details {
+    width:            100%;
+    max-width:        60%;
+    min-height:       auto;
     border:           2px solid var(--defaultWhite);
     border-radius:    8px;
     color:            var(--defaultWhite);
     user-select:      none;
 }
 
-main details summary {
+main #education details summary {
     padding:          8px;
     font-size:        18pt;
 }
@@ -29,13 +28,12 @@ hr {
     background-color: var(--defaultWhite);
 }
 
-main details p {
+main #education details p {
     padding:          4px 8px;
     font-size:        16pt;
 }
 
 @media (max-width: 800px) {
-    
-    main details
-    { max-width: 90vw; }
+    main #education details
+    { max-width: 90%; }
 }

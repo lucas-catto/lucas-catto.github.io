@@ -1,56 +1,61 @@
 
-main {
-    justify-content:  center;
+main #home {
+    justify-content:  flex-start;
     align-items:      center;
-    background-color: var(--defaultBlue);
 }
 
-main section {
-    width:            100vw;
-    max-width:        50vw;
-    height:           auto;
+main #home .home-1,
+main #home .home-2 {
+    width:            100%;
+    max-width:        100%;
+    display:          flex;
     flex-direction:   column;
     align-items:      center;
     justify-content:  center;
 }
 
-/* main #s1 {} */
+main #home .home-1 {}
 
-main #s1 p {
-    font-size:        18pt;
-    color:            var(--defaultWhite);
-    text-align:       center;
+main #home .home-1 p {
+    font-size: 16pt;
 }
 
-main #s2
-{ gap: 8px; }
-
-main #s2 img {
-    width:            100%;
-    max-width:        60%;
-    height:           auto;
-    vertical-align:   middle;
-    border-radius:    50%;
-    border:           2px solid var(--defaultWhite);
+main #home .home-2 {
+    gap: 8px;
 }
 
-main #s2 p {
-    font-size:        14pt;
-    color:            var(--defaultWhite);
+main #home .home-2 img {
+    width:           100%;
+    max-width:       60%;
+    height:          auto;
+    vertical-align:  middle;
+    border-radius:   50%;
+    border:          4px solid var(--defaultWhite);
 }
 
-main #s2 p a
-{ color: var(--defaultWhite); }
+main #home .home-2 p {}
 
-main #s2 p a:hover
-{ border-bottom: 1px solid var(--defaultRed); }
+@media (max-width:1024px) {
+    main #home .home-2 p
+    { margin: 0 0 16px 0; }
+}
 
-@media (max-width: 800px) {
-    main {
+main #home .home-2 p a {}
+
+main #home .home-2 p a:hover {
+    border-bottom: 1px solid var(--defaultRed);
+}
+
+@media (max-width:1024px) {
+    main #home {
+        padding:          96px 0 0 0;
         flex-direction:   column;
-        gap:              16px;
+        gap:              24px;
     }
 
-    main section
-    { max-width: 100vw;}
+    main #home .home-1 p
+    { text-align: center; }
+
+    main #home .home-2 img
+    { max-width: 80%; }
 }
