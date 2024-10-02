@@ -50,16 +50,30 @@ main {
 }
 
 footer {
-    padding: 4px;
-    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
     background-color: var(--defaultBlue);
     color: var(--defaultWhite);
 }
 
-footer a {
+footer .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+footer .logos a {
     color: var(--defaultWhite);
 }
 
-footer a:hover {
+footer p {}
+
+footer p a {
+    color: var(--defaultWhite);
+}
+
+footer p a:hover {
     border-bottom: 1px solid var(--defaultRed);
 }
