@@ -1,0 +1,65 @@
+
+main {
+    padding: 8px;
+    min-height: 100vh;
+    gap: 8px;
+}
+
+#section-1,
+#section-2 {
+    width: 100vw;
+    border-radius: 8px;
+    border: 2px solid var(--defaultBlue);
+}
+
+#section-1 {
+    max-width: 30vw;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#section-1 img {
+    width:          100%;
+    max-width:      100%;
+    height:         auto;
+    vertical-align: middle;
+    border-bottom:  2px solid var(--defaultBlue);
+}
+
+#section-1 > h1 {
+    text-align: center;
+}
+
+#section-1 h1 {}
+
+#section-1 ul {
+    padding: 4px 8px;
+    height: 100%;
+}
+
+#section-1 ul h2 {
+    font-size: 18pt;
+}
+
+#section-1 ul li {
+    font-size: 16pt;
+}
+
+#section-2 {
+    max-width: 70vw;
+}
+
+footer {
+    padding: 4px;
+    justify-content: center;
+    background-color: var(--defaultBlue);
+    color: var(--defaultWhite);
+}
+
+footer a {
+    color: var(--defaultWhite);
+}
+
+footer a:hover {
+    border-bottom: 1px solid var(--defaultRed);
+}
