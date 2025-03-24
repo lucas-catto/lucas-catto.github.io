@@ -1,0 +1,199 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    margin:           0;
+    padding:          0;
+    border:           0;
+    box-sizing:       border-box;
+    font-family:      'Sofia Sans', sans-serif;
+    
+    outline:          none;
+    text-decoration:  none;
+    list-style:       none;
+}
+
+:root {
+    --background: #F3F4F6;
+    --text: #111827;
+}
+
+html, body {
+    width:  100%;
+    height: 100%;
+}
+
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+li,
+details,
+p {
+    font-size: 16pt;
+}
+
+header h1,
+main,
+footer {
+    width: 100%;
+    max-width: 60vw;
+}
+
+@media (max-width:1224px) {
+    header h1,
+    main,
+    footer {
+        max-width: 100%;
+    }
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    background-color: var(--text);
+}
+
+header h1 {
+    margin: 0 auto;
+    color: var(--background);
+}
+
+main {
+    padding: 32px 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+main img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 4px solid var(--text);
+}
+
+#personal-summary,
+#academic-history,
+#courses {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#personal-summary {}
+
+#personal-summary h2 {}
+
+#personal-summary p {
+    text-align: center;
+}
+
+#academic-history {}
+
+#academic-history ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#academic-history ul li {
+    text-align: center;
+}
+
+#academic-history ul li p {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#academic-history ul li p  svg {}
+
+#courses {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#courses details {
+    padding: 4px;
+    width: 100%;
+    border: 2px solid var(--text);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#courses details summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+svg.courses-icon-close {
+    display: none;
+}
+
+#courses details[open] svg.courses-icon-open {
+    display: none;
+}
+#courses details[open] svg.courses-icon-close {
+    display: block;
+}
+
+#courses details[close] svg.courses-icon-open {
+    display: block;
+}
+#courses details[close] svg.courses-icon-close {
+    display: none;
+}
+
+#courses details hr {
+    margin: 2px 0;
+    width: 100%;
+    max-width: 100%;
+    height: 2px;
+    background-color: var(--text);
+}
+
+#courses details summary {
+    
+}
+
+footer {
+    padding: 0 12px 12px 12px;
+}
+
+footer h2 {}
+
+footer ul {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+footer ul li {}
+
+footer ul li a {
+    cursor: pointer;
+}
